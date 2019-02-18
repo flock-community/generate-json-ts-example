@@ -1,0 +1,12 @@
+{
+  "title": "string",
+  "author": "string",
+  "publisher": "string?",
+  "meta": "$meta",
+  "categories": ["string"],
+
+  "$meta": {
+    "pages": "integer",
+    "paperback": "boolean"
+  }
+}

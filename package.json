@@ -1,0 +1,18 @@
+{
+  "name": "generate-json-ts-example",
+  "version": "0.1.0",
+  "description": "Example of how to use generate json ts",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rimraf generated && rimraf lib",
+    "generate": "jsonschema2ts && jsonmodel2ts",
+    "build": "tsc",
+    "start": "node ./lib/index"
+  },
+  "author": "Flock.",
+  "license": "ISC",
+  "devDependencies": {
+    "rimraf": "^2.6.3",
+    "generate-json-ts": "^0.1.2"
+  }
+}

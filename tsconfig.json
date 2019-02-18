@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "sourceMap": false,
+    "outDir": "./lib/",
+    "baseUrl": "./src",
+    "rootDirs": [
+      ".",
+      "generated"
+    ]
+  },
+  "include": [
+    "src"
+  ],
+  "exclude": [
+    "node_modules",
+    "lib"
+  ]
+}
